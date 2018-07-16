@@ -1,3 +1,4 @@
+#!/bin/sh
 x=10
 y=2
 expr $x + $y #addition of variables
