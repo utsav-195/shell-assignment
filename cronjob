@@ -1,3 +1,3 @@
-0 14 * * 1-5 /home/utsav/shell.sh
-0 8-20/3 * * * /home/utsav/shell.sh
-0 0 1-31/2 2-12/2 * /home/shell.sh
+0 14 * * 1-5 /home/utsav/shell.sh #minute 0 to start as the hour reaches 2pm(14) 1-5 is the weekdays
+0 8-20/3 * * * /home/utsav/shell.sh #minute 0 to start as the hour reaches 8am and ends when hour reaches 20(8pm)
+0 0 1-31/2 2-12/2 * /home/shell.sh #minute zero at 0 hours(midnight) 1-31 with steps of 2 i.e. odd dates 2-12 months with steps of 2 for even months
